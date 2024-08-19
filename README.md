@@ -25,25 +25,6 @@ This project provides a solution for transcribing video content into text and en
 - pip (Python package installer)
 - AWS account (if using cloud storage)
 
-### Installation
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/your-username/video-transcription-search.git
-    cd video-transcription-search
-    ```
-2. Install the required Python packages:
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-### AWS Configuration (Optional)
-If you're using AWS for storing video files:
-- Configure your AWS CLI with appropriate credentials:
-    ```bash
-    aws configure
-    ```
-- Update the bucket name and role ARN in the code as required.
-
 ### Running the Project
 1. Place your video files in the specified directory or upload them to AWS S3.
 2. Run the Jupyter notebook to transcribe the videos and generate searchable text:
@@ -57,12 +38,3 @@ If you're using AWS for storing video files:
 2. **Transcribing Videos**: Execute the transcription code in the notebook to convert videos into text.
 3. **Search**: Utilize the search system to query specific terms or phrases from the transcribed content.
 
-## Future Enhancements
-- **Real-time Transcription**: Implement live transcription for streaming videos.
-- **Advanced Search Features**: Add support for fuzzy search, keyword highlighting, and more.
-
-## Contributing
-Contributions are welcome! Please fork the repository and submit a pull request for any enhancements or bug fixes.
-
-## License
-This project is licensed under the MIT License. See the `LICENSE` file for details.
